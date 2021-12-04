@@ -1,0 +1,2092 @@
+{
+    "Core": {
+        "Name": "Arduino Uno",
+        "SourceDirectory": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+        "ArchiveFile": "",
+        "Invocations": [
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\wiring_pulse.S",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\wiring_pulse.S.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-x",
+                    "assembler-with-cpp",
+                    "-flto",
+                    "-MMD",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\wiring_pulse.S",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\wiring_pulse.S.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\WInterrupts.c",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\WInterrupts.c.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-MMD",
+                    "-flto",
+                    "-fno-fat-lto-objects",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\WInterrupts.c",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\WInterrupts.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\hooks.c",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\hooks.c.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-MMD",
+                    "-flto",
+                    "-fno-fat-lto-objects",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\hooks.c",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\hooks.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\wiring.c",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\wiring.c.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-MMD",
+                    "-flto",
+                    "-fno-fat-lto-objects",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\wiring.c",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\wiring.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\wiring_analog.c",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\wiring_analog.c.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-MMD",
+                    "-flto",
+                    "-fno-fat-lto-objects",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\wiring_analog.c",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\wiring_analog.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\wiring_digital.c",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\wiring_digital.c.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-MMD",
+                    "-flto",
+                    "-fno-fat-lto-objects",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\wiring_digital.c",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\wiring_digital.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\wiring_pulse.c",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\wiring_pulse.c.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-MMD",
+                    "-flto",
+                    "-fno-fat-lto-objects",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\wiring_pulse.c",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\wiring_pulse.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\wiring_shift.c",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\wiring_shift.c.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-MMD",
+                    "-flto",
+                    "-fno-fat-lto-objects",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\wiring_shift.c",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\wiring_shift.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\CDC.cpp",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\CDC.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-fpermissive",
+                    "-fno-exceptions",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-Wno-error=narrowing",
+                    "-MMD",
+                    "-flto",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\CDC.cpp",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\CDC.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\HardwareSerial.cpp",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\HardwareSerial.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-fpermissive",
+                    "-fno-exceptions",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-Wno-error=narrowing",
+                    "-MMD",
+                    "-flto",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\HardwareSerial.cpp",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\HardwareSerial.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\HardwareSerial0.cpp",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\HardwareSerial0.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-fpermissive",
+                    "-fno-exceptions",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-Wno-error=narrowing",
+                    "-MMD",
+                    "-flto",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\HardwareSerial0.cpp",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\HardwareSerial0.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\HardwareSerial1.cpp",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\HardwareSerial1.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-fpermissive",
+                    "-fno-exceptions",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-Wno-error=narrowing",
+                    "-MMD",
+                    "-flto",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\HardwareSerial1.cpp",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\HardwareSerial1.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\HardwareSerial2.cpp",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\HardwareSerial2.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-fpermissive",
+                    "-fno-exceptions",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-Wno-error=narrowing",
+                    "-MMD",
+                    "-flto",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\HardwareSerial2.cpp",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\HardwareSerial2.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\HardwareSerial3.cpp",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\HardwareSerial3.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-fpermissive",
+                    "-fno-exceptions",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-Wno-error=narrowing",
+                    "-MMD",
+                    "-flto",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\HardwareSerial3.cpp",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\HardwareSerial3.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\IPAddress.cpp",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\IPAddress.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-fpermissive",
+                    "-fno-exceptions",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-Wno-error=narrowing",
+                    "-MMD",
+                    "-flto",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\IPAddress.cpp",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\IPAddress.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\PluggableUSB.cpp",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\PluggableUSB.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-fpermissive",
+                    "-fno-exceptions",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-Wno-error=narrowing",
+                    "-MMD",
+                    "-flto",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\PluggableUSB.cpp",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\PluggableUSB.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\Print.cpp",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\Print.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-fpermissive",
+                    "-fno-exceptions",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-Wno-error=narrowing",
+                    "-MMD",
+                    "-flto",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\Print.cpp",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\Print.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\Stream.cpp",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\Stream.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-fpermissive",
+                    "-fno-exceptions",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-Wno-error=narrowing",
+                    "-MMD",
+                    "-flto",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\Stream.cpp",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\Stream.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\Tone.cpp",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\Tone.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-fpermissive",
+                    "-fno-exceptions",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-Wno-error=narrowing",
+                    "-MMD",
+                    "-flto",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\Tone.cpp",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\Tone.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\USBCore.cpp",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\USBCore.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-fpermissive",
+                    "-fno-exceptions",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-Wno-error=narrowing",
+                    "-MMD",
+                    "-flto",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\USBCore.cpp",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\USBCore.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\WMath.cpp",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\WMath.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-fpermissive",
+                    "-fno-exceptions",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-Wno-error=narrowing",
+                    "-MMD",
+                    "-flto",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\WMath.cpp",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\WMath.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\WString.cpp",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\WString.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-fpermissive",
+                    "-fno-exceptions",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-Wno-error=narrowing",
+                    "-MMD",
+                    "-flto",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\WString.cpp",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\WString.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\abi.cpp",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\abi.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-fpermissive",
+                    "-fno-exceptions",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-Wno-error=narrowing",
+                    "-MMD",
+                    "-flto",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\abi.cpp",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\abi.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\main.cpp",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\main.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-fpermissive",
+                    "-fno-exceptions",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-Wno-error=narrowing",
+                    "-MMD",
+                    "-flto",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\main.cpp",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\main.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+                "InputFile": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\new.cpp",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\new.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-fpermissive",
+                    "-fno-exceptions",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-Wno-error=narrowing",
+                    "-MMD",
+                    "-flto",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino\\new.cpp",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\core\\new.cpp.o"
+                ]
+            }
+        ]
+    },
+    "Sketch": {
+        "Name": "",
+        "SourceDirectory": "",
+        "ArchiveFile": "",
+        "Invocations": [
+            {
+                "GCC": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+                "InputFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\sketch\\DHT11.ino.cpp",
+                "ObjectFile": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\sketch\\DHT11.ino.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-O0",
+                    "-w",
+                    "-std=gnu++11",
+                    "-fpermissive",
+                    "-fno-exceptions",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-Wno-error=narrowing",
+                    "-MMD",
+                    "-mmcu=atmega328p",
+                    "-DF_CPU=16000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_AVR_UNO",
+                    "-DARDUINO_ARCH_AVR",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino",
+                    "-IC:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\sketch\\DHT11.ino.cpp",
+                    "-o",
+                    "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug\\sketch\\DHT11.ino.cpp.o"
+                ]
+            }
+        ]
+    },
+    "Libraries": null,
+    "KnownHeaders": [
+        {
+            "Name": "Adafruit_ZeroPDMSPI.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_Zero_PDM_Library"
+            ]
+        },
+        {
+            "Name": "arm_common_tables.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_Zero_FFT_Library"
+            ]
+        },
+        {
+            "Name": "Adafruit_PMTK.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_GPS_Library\\src"
+            ]
+        },
+        {
+            "Name": "Adafruit_ZeroPDM.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_Zero_PDM_Library"
+            ]
+        },
+        {
+            "Name": "Adafruit_ZeroDMA.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_Zero_DMA_Library"
+            ]
+        },
+        {
+            "Name": "Adafruit_GrayOLED.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_GFX_Library"
+            ]
+        },
+        {
+            "Name": "Adafruit_GPS.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_GPS_Library\\src"
+            ]
+        },
+        {
+            "Name": "NMEA_data.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_GPS_Library\\src"
+            ]
+        },
+        {
+            "Name": "TouchScreen.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_TouchScreen"
+            ]
+        },
+        {
+            "Name": "Adafruit_SPIDevice.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_BusIO"
+            ]
+        },
+        {
+            "Name": "HID.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\libraries\\HID\\src"
+            ]
+        },
+        {
+            "Name": "Adafruit_I2CRegister.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_BusIO"
+            ]
+        },
+        {
+            "Name": "Adafruit_GFX.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_GFX_Library"
+            ]
+        },
+        {
+            "Name": "Wire.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\libraries\\Wire\\src"
+            ]
+        },
+        {
+            "Name": "TinyWireM.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\TinyWireM"
+            ]
+        },
+        {
+            "Name": "mcpDac.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\WaveHC"
+            ]
+        },
+        {
+            "Name": "gfxfont.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_GFX_Library"
+            ]
+        },
+        {
+            "Name": "Adafruit_ILI9341.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_ILI9341"
+            ]
+        },
+        {
+            "Name": "ArduinoPins.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\WaveHC"
+            ]
+        },
+        {
+            "Name": "WavePinDefs.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\WaveHC"
+            ]
+        },
+        {
+            "Name": "WaveUtil.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\WaveHC"
+            ]
+        },
+        {
+            "Name": "Adafruit_BusIO_Register.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_BusIO"
+            ]
+        },
+        {
+            "Name": "Adafruit_LEDBackpack.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_LED_Backpack_Library"
+            ]
+        },
+        {
+            "Name": "SoftwareSerial.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\libraries\\SoftwareSerial\\src"
+            ]
+        },
+        {
+            "Name": "SdInfo.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\WaveHC"
+            ]
+        },
+        {
+            "Name": "SdReader.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\WaveHC"
+            ]
+        },
+        {
+            "Name": "FatStructs.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\WaveHC"
+            ]
+        },
+        {
+            "Name": "WaveHC.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\WaveHC"
+            ]
+        },
+        {
+            "Name": "SPI.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\libraries\\SPI\\src"
+            ]
+        },
+        {
+            "Name": "Adafruit_ZeroFFT.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_Zero_FFT_Library"
+            ]
+        },
+        {
+            "Name": "Adafruit_SPITFT.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_GFX_Library"
+            ]
+        },
+        {
+            "Name": "Adafruit_STMPE610.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_STMPE610"
+            ]
+        },
+        {
+            "Name": "RTClib.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\RTClib"
+            ]
+        },
+        {
+            "Name": "USI_TWI_Master.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\TinyWireM"
+            ]
+        },
+        {
+            "Name": "Adafruit_SPITFT_Macros.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_GFX_Library"
+            ]
+        },
+        {
+            "Name": "Adafruit_Circuit_Playground.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_Circuit_Playground"
+            ]
+        },
+        {
+            "Name": "FatReader.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\WaveHC"
+            ]
+        },
+        {
+            "Name": "EEPROM.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\libraries\\EEPROM\\src"
+            ]
+        },
+        {
+            "Name": "Adafruit_I2CDevice.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_BusIO"
+            ]
+        },
+        {
+            "Name": "Adafruit_SleepyDog.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_SleepyDog_Library"
+            ]
+        },
+        {
+            "Name": "MAKERphone.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Ringo\\src",
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Ringo_by_CircuitMess_Library\\src"
+            ]
+        },
+        {
+            "Name": "Servo.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Servo\\src"
+            ]
+        },
+        {
+            "Name": "Adafruit_CircuitPlayground.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_Circuit_Playground"
+            ]
+        }
+    ],
+    "Prototypes": [
+        {
+            "FunctionName": "setup",
+            "File": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\sketches\\DHT11.ino",
+            "Prototype": "void setup();",
+            "Modifiers": "",
+            "Line": 14
+        },
+        {
+            "FunctionName": "loop",
+            "File": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\sketches\\DHT11.ino",
+            "Prototype": "void loop();",
+            "Modifiers": "",
+            "Line": 19
+        },
+        {
+            "FunctionName": "read",
+            "File": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\sketches\\DHT11.ino",
+            "Prototype": "State read(int pin);",
+            "Modifiers": "",
+            "Line": 33
+        }
+    ],
+    "KnownLibraries": [
+        {
+            "Folder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_Zero_DMA_Library",
+            "SrcFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_Zero_DMA_Library",
+            "UtilityFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_Zero_DMA_Library\\utility",
+            "Layout": "flat",
+            "Name": "Adafruit_Zero_DMA_Library",
+            "RealName": "Adafruit Zero DMA Library",
+            "IsLegacy": false,
+            "Version": "1.1.0",
+            "Author": "Adafruit",
+            "Maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+            "Sentence": "DMA helper/wrapped for ATSAMD21 such as Arduino Zero \u0026 Feather M0",
+            "Paragraph": "DMA helper/wrapped for ATSAMD21 such as Arduino Zero \u0026 Feather M0",
+            "URL": "https://github.com/adafruit/Adafruit_ZeroDMA",
+            "Category": "Signal Input/Output",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\WaveHC",
+            "SrcFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\WaveHC",
+            "UtilityFolder": "",
+            "Layout": "flat",
+            "Name": "WaveHC",
+            "RealName": "WaveHC",
+            "IsLegacy": false,
+            "Version": "1.0.3",
+            "Author": "William Greiman",
+            "Maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+            "Sentence": "WaveHC wave shield library",
+            "Paragraph": "WaveHC wave shield library",
+            "URL": "https://github.com/adafruit/WaveHC",
+            "Category": "Sensors",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_ILI9341",
+            "SrcFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_ILI9341",
+            "UtilityFolder": "",
+            "Layout": "flat",
+            "Name": "Adafruit_ILI9341",
+            "RealName": "Adafruit ILI9341",
+            "IsLegacy": false,
+            "Version": "1.5.8",
+            "Author": "Adafruit",
+            "Maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+            "Sentence": "Library for Adafruit ILI9341 displays",
+            "Paragraph": "Library for Adafruit ILI9341 displays",
+            "URL": "https://github.com/adafruit/Adafruit_ILI9341",
+            "Category": "Display",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_STMPE610",
+            "SrcFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_STMPE610",
+            "UtilityFolder": "",
+            "Layout": "flat",
+            "Name": "Adafruit_STMPE610",
+            "RealName": "Adafruit STMPE610",
+            "IsLegacy": false,
+            "Version": "1.1.3",
+            "Author": "Adafruit",
+            "Maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+            "Sentence": "Arduino library for STMPE610/811 resistive touch screen controllers",
+            "Paragraph": "Arduino library for STMPE610/811 resistive touch screen controllers",
+            "URL": "https://github.com/adafruit/Adafruit_STMPE610",
+            "Category": "Display",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_SleepyDog_Library",
+            "SrcFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_SleepyDog_Library",
+            "UtilityFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_SleepyDog_Library\\utility",
+            "Layout": "flat",
+            "Name": "Adafruit_SleepyDog_Library",
+            "RealName": "Adafruit SleepyDog Library",
+            "IsLegacy": false,
+            "Version": "1.4.0",
+            "Author": "Adafruit",
+            "Maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+            "Sentence": "Arduino library to use the watchdog timer for system reset and low power sleep.",
+            "Paragraph": "Arduino library to use the watchdog timer for system reset and low power sleep.",
+            "URL": "https://github.com/adafruit/Adafruit_SleepyDog",
+            "Category": "Other",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_Zero_FFT_Library",
+            "SrcFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_Zero_FFT_Library",
+            "UtilityFolder": "",
+            "Layout": "flat",
+            "Name": "Adafruit_Zero_FFT_Library",
+            "RealName": "Adafruit Zero FFT Library",
+            "IsLegacy": false,
+            "Version": "1.0.4",
+            "Author": "Adafruit",
+            "Maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+            "Sentence": "FFT library for Arduino Zero / Adafruit Feather M0 (SAMD21 processor).",
+            "Paragraph": "FFT library for the Arduino Zero / Adafruit Feather M0 (SAMD21 processor).",
+            "URL": "https://github.com/adafruit/Adafruit_ZeroFFT",
+            "Category": "Signal Input/Output",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\libraries\\HID",
+            "SrcFolder": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\libraries\\HID\\src",
+            "UtilityFolder": "",
+            "Layout": "recursive",
+            "Name": "HID",
+            "RealName": "HID",
+            "IsLegacy": false,
+            "Version": "1.0",
+            "Author": "Arduino",
+            "Maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+            "Sentence": "Module for PluggableUSB infrastructure. Exposes an API for devices like Keyboards, Mice and Gamepads.",
+            "Paragraph": "",
+            "URL": "http://www.arduino.cc/en/Reference/HID",
+            "Category": "Communication",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\libraries\\Wire",
+            "SrcFolder": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\libraries\\Wire\\src",
+            "UtilityFolder": "",
+            "Layout": "recursive",
+            "Name": "Wire",
+            "RealName": "Wire",
+            "IsLegacy": false,
+            "Version": "1.0",
+            "Author": "Arduino",
+            "Maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+            "Sentence": "This library allows you to communicate with I2C and Two Wire Interface devices.",
+            "Paragraph": "It allows the communication with I2C devices like temperature sensors, realtime clocks and many others using SDA (Data Line) and SCL (Clock Line).",
+            "URL": "http://www.arduino.cc/en/Reference/Wire",
+            "Category": "Communication",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\libraries\\SPI",
+            "SrcFolder": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\libraries\\SPI\\src",
+            "UtilityFolder": "",
+            "Layout": "recursive",
+            "Name": "SPI",
+            "RealName": "SPI",
+            "IsLegacy": false,
+            "Version": "1.0",
+            "Author": "Arduino",
+            "Maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+            "Sentence": "Enables the communication with devices that use the Serial Peripheral Interface (SPI) Bus.",
+            "Paragraph": "SPI is a synchronous serial data protocol used by microcontrollers for communicating with one or more peripheral devices quickly over short distances. It uses three lines common to all devices (MISO, MOSI and SCK) and one specific for each device.",
+            "URL": "http://www.arduino.cc/en/Reference/SPI",
+            "Category": "Communication",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_Circuit_Playground",
+            "SrcFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_Circuit_Playground",
+            "UtilityFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_Circuit_Playground\\utility",
+            "Layout": "flat",
+            "Name": "Adafruit_Circuit_Playground",
+            "RealName": "Adafruit Circuit Playground",
+            "IsLegacy": false,
+            "Version": "1.11.3",
+            "Author": "Adafruit",
+            "Maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+            "Sentence": "All in one library to control Adafruit's Circuit Playground board.",
+            "Paragraph": "All in one library to control Adafruit's Circuit Playground board.",
+            "URL": "https://github.com/adafruit/Adafruit_CircuitPlayground",
+            "Category": "Other",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Servo",
+            "SrcFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Servo\\src",
+            "UtilityFolder": "",
+            "Layout": "recursive",
+            "Name": "Servo",
+            "RealName": "Servo",
+            "IsLegacy": false,
+            "Version": "1.1.8",
+            "Author": "Michael Margolis, Arduino",
+            "Maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+            "Sentence": "Allows Arduino boards to control a variety of servo motors.",
+            "Paragraph": "This library can control a great number of servos.\u003cbr /\u003eIt makes careful use of timers: the library can control 12 servos using only 1 timer.\u003cbr /\u003eOn the Arduino Due you can control up to 60 servos.",
+            "URL": "https://www.arduino.cc/reference/en/libraries/servo/",
+            "Category": "Device Control",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_GPS_Library",
+            "SrcFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_GPS_Library\\src",
+            "UtilityFolder": "",
+            "Layout": "recursive",
+            "Name": "Adafruit_GPS_Library",
+            "RealName": "Adafruit GPS Library",
+            "IsLegacy": false,
+            "Version": "1.5.4",
+            "Author": "Adafruit",
+            "Maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+            "Sentence": "An interrupt-based GPS library for no-parsing-required use",
+            "Paragraph": "An interrupt-based GPS library for no-parsing-required use",
+            "URL": "https://github.com/adafruit/Adafruit_GPS",
+            "Category": "Sensors",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_GFX_Library",
+            "SrcFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_GFX_Library",
+            "UtilityFolder": "",
+            "Layout": "flat",
+            "Name": "Adafruit_GFX_Library",
+            "RealName": "Adafruit GFX Library",
+            "IsLegacy": false,
+            "Version": "1.10.10",
+            "Author": "Adafruit",
+            "Maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+            "Sentence": "Adafruit GFX graphics core library, this is the 'core' class that all our other graphics libraries derive from.",
+            "Paragraph": "Install this library in addition to the display library for your hardware.",
+            "URL": "https://github.com/adafruit/Adafruit-GFX-Library",
+            "Category": "Display",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_BusIO",
+            "SrcFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_BusIO",
+            "UtilityFolder": "",
+            "Layout": "flat",
+            "Name": "Adafruit_BusIO",
+            "RealName": "Adafruit BusIO",
+            "IsLegacy": false,
+            "Version": "1.7.3",
+            "Author": "Adafruit",
+            "Maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+            "Sentence": "This is a library for abstracting away UART, I2C and SPI interfacing",
+            "Paragraph": "This is a library for abstracting away UART, I2C and SPI interfacing",
+            "URL": "https://github.com/adafruit/Adafruit_BusIO",
+            "Category": "Signal Input/Output",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\TinyWireM",
+            "SrcFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\TinyWireM",
+            "UtilityFolder": "",
+            "Layout": "flat",
+            "Name": "TinyWireM",
+            "RealName": "TinyWireM",
+            "IsLegacy": false,
+            "Version": "1.1.0",
+            "Author": "Adafruit",
+            "Maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+            "Sentence": "I2C library for Trinket and Gemma, adapted from BroHogan's code on Arduino Playground",
+            "Paragraph": "I2C library for Trinket and Gemma, adapted from BroHogan's code on Arduino Playground",
+            "URL": "https://github.com/adafruit/TinyWireM",
+            "Category": "Signal Input/Output",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\libraries\\EEPROM",
+            "SrcFolder": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\libraries\\EEPROM\\src",
+            "UtilityFolder": "",
+            "Layout": "recursive",
+            "Name": "EEPROM",
+            "RealName": "EEPROM",
+            "IsLegacy": false,
+            "Version": "2.0",
+            "Author": "Arduino, Christopher Andrews",
+            "Maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+            "Sentence": "Enables reading and writing to the permanent board storage.",
+            "Paragraph": "This library allows to read and write data in a memory type, the EEPROM, that keeps its content also when the board is powered off. The amount of EEPROM available depends on the microcontroller type.",
+            "URL": "http://www.arduino.cc/en/Reference/EEPROM",
+            "Category": "Data Storage",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Ringo_by_CircuitMess_Library",
+            "SrcFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Ringo_by_CircuitMess_Library\\src",
+            "UtilityFolder": "",
+            "Layout": "recursive",
+            "Name": "Ringo_by_CircuitMess_Library",
+            "RealName": "Ringo by CircuitMess Library",
+            "IsLegacy": false,
+            "Version": "1.0.2",
+            "Author": "CircuitMess",
+            "Maintainer": "CircuitMess \u003ccontact@circuitmess.com\u003e",
+            "Sentence": "Ringo is an educational DIY mobile phone designed to bring electronics and programming to the crowd in a fun and interesting way.",
+            "Paragraph": "See more on https://www.kickstarter.com/projects/albertgajsak/makerphone-an-educational-diy-mobile-phone",
+            "URL": "https://github.com/CircuitMess/CircuitMess-Ringo",
+            "Category": "Device Control",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_Zero_PDM_Library",
+            "SrcFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_Zero_PDM_Library",
+            "UtilityFolder": "",
+            "Layout": "flat",
+            "Name": "Adafruit_Zero_PDM_Library",
+            "RealName": "Adafruit Zero PDM Library",
+            "IsLegacy": false,
+            "Version": "1.2.0",
+            "Author": "Adafruit",
+            "Maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+            "Sentence": "PDM Microphone Input library for Arduino Zero / Adafruit Feather M0 (SAMD21 processor).",
+            "Paragraph": "PDM Microphone Input library for the Arduino Zero / Adafruit Feather M0 (SAMD21 processor).",
+            "URL": "https://github.com/adafruit/Adafruit_ZeroPDM",
+            "Category": "Signal Input/Output",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_TouchScreen",
+            "SrcFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_TouchScreen",
+            "UtilityFolder": "",
+            "Layout": "flat",
+            "Name": "Adafruit_TouchScreen",
+            "RealName": "Adafruit TouchScreen",
+            "IsLegacy": false,
+            "Version": "1.1.2",
+            "Author": "Adafruit",
+            "Maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+            "Sentence": "Adafruit TouchScreen display library.",
+            "Paragraph": "Adafruit TouchScreen display library.",
+            "URL": "https://github.com/adafruit/Adafruit_TouchScreen",
+            "Category": "Display",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_LED_Backpack_Library",
+            "SrcFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Adafruit_LED_Backpack_Library",
+            "UtilityFolder": "",
+            "Layout": "flat",
+            "Name": "Adafruit_LED_Backpack_Library",
+            "RealName": "Adafruit LED Backpack Library",
+            "IsLegacy": false,
+            "Version": "1.1.9",
+            "Author": "Adafruit",
+            "Maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+            "Sentence": "Adafruit LED Backpack Library for our 8x8 matrix and 7-segment LED backpacks",
+            "Paragraph": "Adafruit LED Backpack Library for our 8x8 matrix and 7-segment LED backpacks",
+            "URL": "https://github.com/adafruit/Adafruit-LED-Backpack-Library",
+            "Category": "Display",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\libraries\\SoftwareSerial",
+            "SrcFolder": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\libraries\\SoftwareSerial\\src",
+            "UtilityFolder": "",
+            "Layout": "recursive",
+            "Name": "SoftwareSerial",
+            "RealName": "SoftwareSerial",
+            "IsLegacy": false,
+            "Version": "1.0",
+            "Author": "Arduino",
+            "Maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+            "Sentence": "Enables serial communication on any digital pin.",
+            "Paragraph": "The SoftwareSerial library has been developed to allow serial communication on any digital pin of the board, using software to replicate the functionality of the hardware UART. It is possible to have multiple software serial ports with speeds up to 115200 bps.",
+            "URL": "http://www.arduino.cc/en/Reference/SoftwareSerial",
+            "Category": "Communication",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\RTClib",
+            "SrcFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\RTClib",
+            "UtilityFolder": "",
+            "Layout": "flat",
+            "Name": "RTClib",
+            "RealName": "RTClib",
+            "IsLegacy": false,
+            "Version": "1.13.0",
+            "Author": "Adafruit",
+            "Maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+            "Sentence": "A fork of Jeelab's fantastic RTC library",
+            "Paragraph": "A fork of Jeelab's fantastic RTC library",
+            "URL": "https://github.com/adafruit/RTClib",
+            "Category": "Timing",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Ringo",
+            "SrcFolder": "C:\\Users\\Daniel\\Documents\\Arduino\\Libraries\\Ringo\\src",
+            "UtilityFolder": "",
+            "Layout": "recursive",
+            "Name": "Ringo",
+            "RealName": "Ringo by CircuitMess Library",
+            "IsLegacy": false,
+            "Version": "1.0.5",
+            "Author": "CircuitMess",
+            "Maintainer": "CircuitMess \u003ccontact@circuitmess.com\u003e",
+            "Sentence": "Ringo is an educational DIY mobile phone designed to bring electronics and programming to the crowd in a fun and interesting way.",
+            "Paragraph": "See more on https://www.kickstarter.com/projects/albertgajsak/makerphone-an-educational-diy-mobile-phone",
+            "URL": "https://github.com/CircuitMess/CircuitMess-Ringo",
+            "Category": "Device Control",
+            "License": "Unspecified"
+        }
+    ],
+    "LinkerCommandLine": "",
+    "BuildProperties": [
+        {
+            "Key": "compiler.objcopy.eep.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "recipe.output.tmp_file",
+            "Value": "{build.project_name}.hex"
+        },
+        {
+            "Key": "tools.avrdude.erase.params.verbose",
+            "Value": "-v"
+        },
+        {
+            "Key": "tools.avrdude.erase.params.quiet",
+            "Value": "-q -q"
+        },
+        {
+            "Key": "runtime.tools.mkspiffs-2.5.0-4-b40a506.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\cm\\tools\\mkspiffs\\2.5.0-4-b40a506"
+        },
+        {
+            "Key": "tools.ctags.pattern",
+            "Value": "\"{cmd.path}\" -u --language-force=c++ -f - --c++-kinds=svpf --fields=KSTtzns --line-directives \"{source_file}\""
+        },
+        {
+            "Key": "tools.avrdude.program.verify",
+            "Value": ""
+        },
+        {
+            "Key": "bootloader.unlock_bits",
+            "Value": "0x3F"
+        },
+        {
+            "Key": "bootloader.lock_bits",
+            "Value": "0x0F"
+        },
+        {
+            "Key": "extra.time.dst",
+            "Value": "0"
+        },
+        {
+            "Key": "compiler.elf2hex.cmd",
+            "Value": "avr-objcopy"
+        },
+        {
+            "Key": "recipe.size.regex.eeprom",
+            "Value": "^(?:\\.eeprom)\\s+([0-9]+).*"
+        },
+        {
+            "Key": "recipe.preproc.macros",
+            "Value": "\"{compiler.path}{compiler.cpp.cmd}\" {compiler.cpp.flags} {preproc.macros.flags} -mmcu={build.mcu} -DF_CPU={build.f_cpu} -DARDUINO={runtime.ide.version} -DARDUINO_{build.board} -DARDUINO_ARCH_{build.arch} {compiler.cpp.extra_flags} {build.extra_flags} {includes} \"{source_file}\" -o \"{preprocessed_file_path}\""
+        },
+        {
+            "Key": "tools.avrdude.cmd.path",
+            "Value": "{path}/bin/avrdude"
+        },
+        {
+            "Key": "tools.avrdude.bootloader.params.verbose",
+            "Value": "-v"
+        },
+        {
+            "Key": "runtime.hardware.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr"
+        },
+        {
+            "Key": "compiler.warning_flags.all",
+            "Value": "-Wall -Wextra"
+        },
+        {
+            "Key": "compiler.elf2hex.flags",
+            "Value": "-O ihex -R .eeprom"
+        },
+        {
+            "Key": "tools.avrdude.config.path",
+            "Value": "{path}/etc/avrdude.conf"
+        },
+        {
+            "Key": "tools.avrdude.program.params.verbose",
+            "Value": "-v"
+        },
+        {
+            "Key": "build.fqbn",
+            "Value": "arduino:avr:uno"
+        },
+        {
+            "Key": "runtime.tools.xtensa-esp32-elf-gcc.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\cm\\tools\\xtensa-esp32-elf-gcc\\1.22.0-80-g6c4433a-5.2.0"
+        },
+        {
+            "Key": "compiler.c.elf.flags",
+            "Value": "{compiler.warning_flags} -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections"
+        },
+        {
+            "Key": "compiler.cpp.cmd",
+            "Value": "avr-g++"
+        },
+        {
+            "Key": "build.board",
+            "Value": "AVR_UNO"
+        },
+        {
+            "Key": "_id",
+            "Value": "uno"
+        },
+        {
+            "Key": "extra.time.local",
+            "Value": "1638048510"
+        },
+        {
+            "Key": "tools.arduino-preprocessor.path",
+            "Value": "{runtime.tools.arduino-preprocessor.path}"
+        },
+        {
+            "Key": "compiler.c.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "compiler.S.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "compiler.elf2hex.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "recipe.c.combine.pattern",
+            "Value": "\"{compiler.path}{compiler.c.elf.cmd}\" {compiler.c.elf.flags} -mmcu={build.mcu} {compiler.c.elf.extra_flags} {compiler.ldflags} -o \"{build.path}/{build.project_name}.elf\" {object_files} {compiler.libraries.ldflags} \"{build.path}/{archive_file}\" \"-L{build.path}\" -lm"
+        },
+        {
+            "Key": "build.core.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\cores\\arduino"
+        },
+        {
+            "Key": "runtime.tools.esptool_py-3.0.0.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\cm\\tools\\esptool_py\\3.0.0"
+        },
+        {
+            "Key": "compiler.libraries.ldflags",
+            "Value": ""
+        },
+        {
+            "Key": "recipe.objcopy.hex.pattern",
+            "Value": "\"{compiler.path}{compiler.elf2hex.cmd}\" {compiler.elf2hex.flags} {compiler.elf2hex.extra_flags} \"{build.path}/{build.project_name}.elf\" \"{build.path}/{build.project_name}.hex\""
+        },
+        {
+            "Key": "recipe.objcopy.eep.pattern",
+            "Value": "\"{compiler.path}{compiler.objcopy.cmd}\" {compiler.objcopy.eep.flags} {compiler.objcopy.eep.extra_flags} \"{build.path}/{build.project_name}.elf\" \"{build.path}/{build.project_name}.eep\""
+        },
+        {
+            "Key": "recipe.preproc.includes",
+            "Value": "\"{compiler.path}{compiler.cpp.cmd}\" {compiler.cpp.flags} {preproc.includes.flags} -mmcu={build.mcu} -DF_CPU={build.f_cpu} -DARDUINO={runtime.ide.version} -DARDUINO_{build.board} -DARDUINO_ARCH_{build.arch} {compiler.cpp.extra_flags} {build.extra_flags} {includes} \"{source_file}\""
+        },
+        {
+            "Key": "tools.avrdude.upload.verify",
+            "Value": ""
+        },
+        {
+            "Key": "runtime.tools.mkspiffs-0.2.3.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\cm\\tools\\mkspiffs\\0.2.3"
+        },
+        {
+            "Key": "runtime.tools.xtensa-lx106-elf-gcc.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\cm\\tools\\xtensa-lx106-elf-gcc\\2.5.0-4-b40a506"
+        },
+        {
+            "Key": "runtime.tools.serial-discovery.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\builtin\\tools\\serial-discovery\\1.3.0-rc1"
+        },
+        {
+            "Key": "extra.time.zone",
+            "Value": "3600"
+        },
+        {
+            "Key": "version",
+            "Value": "1.8.3"
+        },
+        {
+            "Key": "tools.arduino-preprocessor.pattern",
+            "Value": "\"{cmd.path}\" \"{source_file}\" \"{codecomplete}\" -- -std=gnu++11"
+        },
+        {
+            "Key": "compiler.ar.flags",
+            "Value": "rcs"
+        },
+        {
+            "Key": "tools.avrdude.bootloader.pattern",
+            "Value": "\"{cmd.path}\" \"-C{config.path}\" {bootloader.verbose} -p{build.mcu} -c{protocol} {program.extra_params} \"-Uflash:w:{runtime.platform.path}/bootloaders/{bootloader.file}:i\" -Ulock:w:{bootloader.lock_bits}:m"
+        },
+        {
+            "Key": "build.core",
+            "Value": "arduino"
+        },
+        {
+            "Key": "build.system.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\system"
+        },
+        {
+            "Key": "runtime.tools.builtin.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+        },
+        {
+            "Key": "runtime.tools.mklittlefs-2.5.0-4-fe5bb56.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\cm\\tools\\mklittlefs\\2.5.0-4-fe5bb56"
+        },
+        {
+            "Key": "preproc.macros.flags",
+            "Value": "-w -x c++ -E -CC"
+        },
+        {
+            "Key": "tools.avrdude_remote.upload.pattern",
+            "Value": "/usr/bin/run-avrdude /tmp/sketch.hex {upload.verbose} -p{build.mcu}"
+        },
+        {
+            "Key": "runtime.tools.arduino-hardware.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware"
+        },
+        {
+            "Key": "runtime.tools.serial-discovery-1.0.0.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\builtin\\tools\\serial-discovery\\1.0.0"
+        },
+        {
+            "Key": "runtime.tools.arduinoOTA.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arduinoOTA\\1.3.0"
+        },
+        {
+            "Key": "compiler.ar.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "compiler.cpp.flags",
+            "Value": "-c -g -Os {compiler.warning_flags} -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -Wno-error=narrowing -MMD -flto"
+        },
+        {
+            "Key": "build.usb_manufacturer",
+            "Value": "\"Unknown\""
+        },
+        {
+            "Key": "bootloader.low_fuses",
+            "Value": "0xFF"
+        },
+        {
+            "Key": "build.path",
+            "Value": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\Output\\Arduino_Uno\\Debug"
+        },
+        {
+            "Key": "runtime.platform.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3"
+        },
+        {
+            "Key": "runtime.ide.version",
+            "Value": "10600"
+        },
+        {
+            "Key": "runtime.tools.mdns-discovery.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\builtin\\tools\\mdns-discovery\\0.9.2"
+        },
+        {
+            "Key": "compiler.c.cmd",
+            "Value": "avr-gcc"
+        },
+        {
+            "Key": "runtime.tools.arduino-tools.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools"
+        },
+        {
+            "Key": "runtime.tools.mklittlefs.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\cm\\tools\\mklittlefs\\2.5.0-4-fe5bb56"
+        },
+        {
+            "Key": "tools.avrdude.upload.params.noverify",
+            "Value": "-V"
+        },
+        {
+            "Key": "upload.maximum_size",
+            "Value": "32256"
+        },
+        {
+            "Key": "bootloader.tool",
+            "Value": "avrdude"
+        },
+        {
+            "Key": "runtime.tools.avr-gcc-7.3.0-atmel3.6.1-arduino7.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7"
+        },
+        {
+            "Key": "runtime.tools.python3-3.7.2-post1.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\cm\\tools\\python3\\3.7.2-post1"
+        },
+        {
+            "Key": "runtime.tools.cm.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\cm\\tools"
+        },
+        {
+            "Key": "extra.time.utc",
+            "Value": "1638044910"
+        },
+        {
+            "Key": "recipe.ar.pattern",
+            "Value": "\"{compiler.path}{compiler.ar.cmd}\" {compiler.ar.flags} {compiler.ar.extra_flags} \"{archive_file_path}\" \"{object_file}\""
+        },
+        {
+            "Key": "compiler.S.flags",
+            "Value": "-c -g -x assembler-with-cpp -flto -MMD"
+        },
+        {
+            "Key": "recipe.c.o.pattern",
+            "Value": "\"{compiler.path}{compiler.c.cmd}\" {compiler.c.flags} -mmcu={build.mcu} -DF_CPU={build.f_cpu} -DARDUINO={runtime.ide.version} -DARDUINO_{build.board} -DARDUINO_ARCH_{build.arch} {compiler.c.extra_flags} {build.extra_flags} {includes} \"{source_file}\" -o \"{object_file}\""
+        },
+        {
+            "Key": "recipe.size.regex",
+            "Value": "^(?:\\.text|\\.data|\\.bootloader)\\s+([0-9]+).*"
+        },
+        {
+            "Key": "tools.avrdude.bootloader.params.quiet",
+            "Value": "-q -q"
+        },
+        {
+            "Key": "pid.3",
+            "Value": "0x0243"
+        },
+        {
+            "Key": "runtime.tools.cm-tools.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\cm\\tools"
+        },
+        {
+            "Key": "software",
+            "Value": "ARDUINO"
+        },
+        {
+            "Key": "compiler.c.flags",
+            "Value": "-c -g -Os {compiler.warning_flags} -std=gnu11 -ffunction-sections -fdata-sections -MMD -flto -fno-fat-lto-objects"
+        },
+        {
+            "Key": "compiler.size.cmd",
+            "Value": "avr-size"
+        },
+        {
+            "Key": "archive_file_path",
+            "Value": "{build.path}/{archive_file}"
+        },
+        {
+            "Key": "recipe.size.regex.data",
+            "Value": "^(?:\\.data|\\.bss|\\.noinit)\\s+([0-9]+).*"
+        },
+        {
+            "Key": "bootloader.extended_fuses",
+            "Value": "0xFD"
+        },
+        {
+            "Key": "runtime.ide.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\VisualGDB\\Arduino"
+        },
+        {
+            "Key": "runtime.tools.avrdude-6.3.0-arduino17.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avrdude\\6.3.0-arduino17"
+        },
+        {
+            "Key": "runtime.tools.avrdude.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avrdude\\6.3.0-arduino17"
+        },
+        {
+            "Key": "tools.avrdude.path",
+            "Value": "{runtime.tools.avrdude.path}"
+        },
+        {
+            "Key": "name",
+            "Value": "Arduino Uno"
+        },
+        {
+            "Key": "compiler.c.elf.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "build.mcu",
+            "Value": "atmega328p"
+        },
+        {
+            "Key": "runtime.tools.arduinoOTA-1.3.0.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arduinoOTA\\1.3.0"
+        },
+        {
+            "Key": "runtime.tools.ctags.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\VisualGDB\\Arduino\\tools-builder\\ctags\\5.8-arduino11"
+        },
+        {
+            "Key": "bootloader.high_fuses",
+            "Value": "0xDE"
+        },
+        {
+            "Key": "tools.avrdude.upload.network_pattern",
+            "Value": "\"{network_cmd}\" -address {serial.port} -port {upload.network.port} -sketch \"{build.path}/{build.project_name}.hex\" -upload {upload.network.endpoint_upload} -sync {upload.network.endpoint_sync} -reset {upload.network.endpoint_reset} -sync_exp {upload.network.sync_return}"
+        },
+        {
+            "Key": "vid.3",
+            "Value": "0x2341"
+        },
+        {
+            "Key": "compiler.warning_flags.default",
+            "Value": ""
+        },
+        {
+            "Key": "compiler.path",
+            "Value": "{runtime.tools.avr-gcc.path}/bin/"
+        },
+        {
+            "Key": "recipe.size.pattern",
+            "Value": "\"{compiler.path}{compiler.size.cmd}\" -A \"{build.path}/{build.project_name}.elf\""
+        },
+        {
+            "Key": "runtime.os",
+            "Value": "windows"
+        },
+        {
+            "Key": "compiler.warning_flags.none",
+            "Value": "-w"
+        },
+        {
+            "Key": "upload.speed",
+            "Value": "115200"
+        },
+        {
+            "Key": "runtime.tools.esptool_py-2.6.1.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\cm\\tools\\esptool_py\\2.6.1"
+        },
+        {
+            "Key": "runtime.tools.xtensa-esp32-elf-gcc-1.22.0-80-g6c4433a-5.2.0.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\cm\\tools\\xtensa-esp32-elf-gcc\\1.22.0-80-g6c4433a-5.2.0"
+        },
+        {
+            "Key": "compiler.c.elf.cmd",
+            "Value": "avr-gcc"
+        },
+        {
+            "Key": "recipe.cpp.o.pattern",
+            "Value": "\"{compiler.path}{compiler.cpp.cmd}\" {compiler.cpp.flags} -mmcu={build.mcu} -DF_CPU={build.f_cpu} -DARDUINO={runtime.ide.version} -DARDUINO_{build.board} -DARDUINO_ARCH_{build.arch} {compiler.cpp.extra_flags} {build.extra_flags} {includes} \"{source_file}\" -o \"{object_file}\""
+        },
+        {
+            "Key": "tools.avrdude.program.params.quiet",
+            "Value": "-q -q"
+        },
+        {
+            "Key": "build.usb_flags",
+            "Value": "-DUSB_VID={build.vid} -DUSB_PID={build.pid} '-DUSB_MANUFACTURER={build.usb_manufacturer}' '-DUSB_PRODUCT={build.usb_product}'"
+        },
+        {
+            "Key": "upload.protocol",
+            "Value": "arduino"
+        },
+        {
+            "Key": "bootloader.file",
+            "Value": "optiboot/optiboot_atmega328.hex"
+        },
+        {
+            "Key": "build.library_discovery_phase",
+            "Value": "0"
+        },
+        {
+            "Key": "runtime.tools.ctags-5.8-arduino11.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\builtin\\tools\\ctags\\5.8-arduino11"
+        },
+        {
+            "Key": "compiler.objcopy.eep.flags",
+            "Value": "-O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0"
+        },
+        {
+            "Key": "runtime.tools.serial-discovery-1.3.0-rc1.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\builtin\\tools\\serial-discovery\\1.3.0-rc1"
+        },
+        {
+            "Key": "build.source.path",
+            "Value": "C:\\Users\\Daniel\\source\\repos\\DHT11\\DHT11\\sketches"
+        },
+        {
+            "Key": "runtime.tools.python3.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\cm\\tools\\python3\\3.7.2-post1"
+        },
+        {
+            "Key": "pid.1",
+            "Value": "0x0001"
+        },
+        {
+            "Key": "compiler.ar.cmd",
+            "Value": "avr-gcc-ar"
+        },
+        {
+            "Key": "runtime.tools.mdns-discovery-0.9.2.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\builtin\\tools\\mdns-discovery\\0.9.2"
+        },
+        {
+            "Key": "runtime.tools.esptool_py.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\cm\\tools\\esptool_py\\3.0.0"
+        },
+        {
+            "Key": "tools.avrdude.upload.params.quiet",
+            "Value": "-q -q"
+        },
+        {
+            "Key": "build.arch",
+            "Value": "AVR"
+        },
+        {
+            "Key": "runtime.tools.mkspiffs.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\cm\\tools\\mkspiffs\\2.5.0-4-b40a506"
+        },
+        {
+            "Key": "tools.avrdude.program.params.noverify",
+            "Value": "-V"
+        },
+        {
+            "Key": "pid.0",
+            "Value": "0x0043"
+        },
+        {
+            "Key": "build.variant",
+            "Value": "standard"
+        },
+        {
+            "Key": "build.variant.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.3\\variants\\standard"
+        },
+        {
+            "Key": "compiler.cpp.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "build.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "preproc.includes.flags",
+            "Value": "-w -x c++ -M -MG -MP"
+        },
+        {
+            "Key": "tools.avrdude.network_cmd",
+            "Value": "{runtime.tools.arduinoOTA.path}/bin/arduinoOTA"
+        },
+        {
+            "Key": "vid.2",
+            "Value": "0x2A03"
+        },
+        {
+            "Key": "compiler.warning_flags.more",
+            "Value": "-Wall"
+        },
+        {
+            "Key": "tools.avrdude.upload.params.verbose",
+            "Value": "-v"
+        },
+        {
+            "Key": "runtime.tools.arduino.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools"
+        },
+        {
+            "Key": "tools.ctags.path",
+            "Value": "{runtime.tools.ctags.path}"
+        },
+        {
+            "Key": "compiler.objcopy.cmd",
+            "Value": "avr-objcopy"
+        },
+        {
+            "Key": "recipe.S.o.pattern",
+            "Value": "\"{compiler.path}{compiler.c.cmd}\" {compiler.S.flags} -mmcu={build.mcu} -DF_CPU={build.f_cpu} -DARDUINO={runtime.ide.version} -DARDUINO_{build.board} -DARDUINO_ARCH_{build.arch} {compiler.S.extra_flags} {build.extra_flags} {includes} \"{source_file}\" -o \"{object_file}\""
+        },
+        {
+            "Key": "vid.0",
+            "Value": "0x2341"
+        },
+        {
+            "Key": "tools.arduino-preprocessor.cmd.path",
+            "Value": "{path}/arduino-preprocessor"
+        },
+        {
+            "Key": "pid.2",
+            "Value": "0x0043"
+        },
+        {
+            "Key": "compiler.warning_flags",
+            "Value": "-w"
+        },
+        {
+            "Key": "recipe.output.save_file",
+            "Value": "{build.project_name}.{build.variant}.hex"
+        },
+        {
+            "Key": "runtime.tools.cm-hardware.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\cm\\hardware"
+        },
+        {
+            "Key": "compiler.ldflags",
+            "Value": ""
+        },
+        {
+            "Key": "tools.avrdude.erase.pattern",
+            "Value": "\"{cmd.path}\" \"-C{config.path}\" {erase.verbose} -p{build.mcu} -c{protocol} {program.extra_params} -e -Ulock:w:{bootloader.unlock_bits}:m -Uefuse:w:{bootloader.extended_fuses}:m -Uhfuse:w:{bootloader.high_fuses}:m -Ulfuse:w:{bootloader.low_fuses}:m"
+        },
+        {
+            "Key": "vid.1",
+            "Value": "0x2341"
+        },
+        {
+            "Key": "upload.tool",
+            "Value": "avrdude"
+        },
+        {
+            "Key": "upload.maximum_data_size",
+            "Value": "2048"
+        },
+        {
+            "Key": "build.f_cpu",
+            "Value": "16000000L"
+        },
+        {
+            "Key": "runtime.tools.builtin-tools.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+        },
+        {
+            "Key": "runtime.tools.avr-gcc.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7"
+        },
+        {
+            "Key": "tools.avrdude.upload.pattern",
+            "Value": "\"{cmd.path}\" \"-C{config.path}\" {upload.verbose} {upload.verify} -p{build.mcu} -c{upload.protocol} \"-P{serial.port}\" -b{upload.speed} -D \"-Uflash:w:{build.path}/{build.project_name}.hex:i\""
+        },
+        {
+            "Key": "build.project_name",
+            "Value": "DHT11.ino"
+        },
+        {
+            "Key": "runtime.tools.xtensa-lx106-elf-gcc-2.5.0-4-b40a506.path",
+            "Value": "C:\\Users\\Daniel\\AppData\\Local\\Arduino15\\packages\\cm\\tools\\xtensa-lx106-elf-gcc\\2.5.0-4-b40a506"
+        },
+        {
+            "Key": "tools.avrdude.program.pattern",
+            "Value": "\"{cmd.path}\" \"-C{config.path}\" {program.verbose} {program.verify} -p{build.mcu} -c{protocol} {program.extra_params} \"-Uflash:w:{build.path}/{build.project_name}.hex:i\""
+        },
+        {
+            "Key": "ide_version",
+            "Value": "10600"
+        },
+        {
+            "Key": "tools.ctags.cmd.path",
+            "Value": "{path}/ctags"
+        }
+    ]
+}
